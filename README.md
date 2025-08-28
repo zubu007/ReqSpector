@@ -23,7 +23,7 @@ ReqSpector is a powerful CLI tool designed to analyze system requirements and pr
 Clone this repository and install the required dependencies:
 
 ```bash
-git clone ---
+git clone https://github.com/zubu007/ReqSpector.git
 pip install -r requirements.txt
 ```
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 Run the tool using the command line:
 
 ```bash
-python reqspector.py
+python main.py
 ```
 
 

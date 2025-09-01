@@ -12,9 +12,6 @@ ReqSpector is a powerful CLI tool designed to analyze system requirements and pr
   - Ambiguity Check
   - Feasibility
   - Dependencies mentioned
-- Take file inputs from txt, md and pdf formats
-- Offline Fallback -> Ollama local LLM support
-- API integration
 - Multiline requirement input support
 - Tabular output format
 

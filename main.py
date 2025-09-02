@@ -42,7 +42,14 @@ def main():
     provider = None
 
     while True:
-        choice = input("Please select a LLM provider [1-4] (default ENTER is Groq Cloud): ").strip() or "1"
+        choice = input(
+            """Please select a LLM provider: [1-4]
+  1. Groq
+  2. OpenAI
+  3. Anthropic
+  4. Ollama
+(default ENTER is Groq Cloud): """
+        ).strip() or "1"
         if choice in OPTIONS:
             if choice == ":q":
                 print("Exiting the program. Goodbye!")

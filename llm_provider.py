@@ -41,7 +41,7 @@ class LLM():
 
     def test_connection(self):
         try:
-            test_prompt = "Hello, how are you?"
+            test_prompt = "Hello, how are you JSON?"
             messages = [
                 {"role": "system", "content": "You are a helpful assistant."},
                 {"role": "user", "content": test_prompt}

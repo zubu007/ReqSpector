@@ -9,7 +9,6 @@ ReqSpector is a powerful CLI tool designed to analyze system requirements and pr
   - Completeness
   - Clarity
   - Testability
-  - Ambiguity Check
   - Feasibility
   - Dependencies mentioned
 - Multiline requirement input support

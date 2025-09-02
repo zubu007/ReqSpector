@@ -42,7 +42,11 @@ class LLM():
     def test_connection(self):
         try:
             test_prompt = "Hello, how are you?"
-            self.generate_response(test_prompt)
+            messages = [
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": test_prompt}
+            ]
+            self.llm.invoke(messages)
             return True
         except Exception as e:
             print(f"Connection test failed: {e}")
